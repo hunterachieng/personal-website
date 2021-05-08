@@ -1,0 +1,168 @@
+.main-content{
+    background-image:url("mesmile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar{
+    height:40px;
+    width: 100%;
+    border: 1px groove #F0FFFF;
+    background-color: white;
+    border-radius: 5px; 
+    margin: -5px; 
+    /* position: fixed; */
+        }
+    li {
+       float:right;
+list-style-type:none;
+}
+
+li a {
+display: block;
+color: rgb(5, 5, 5);
+text-align: center;
+padding: 0px 20px;
+text-decoration: none;
+font-size: larger;
+}
+/* #body{
+    /* margin: 0%; */
+
+#verse{
+    position: absolute;
+    top:75%;
+    left: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: rgb(70, 69, 69);    
+}
+.container{
+    display: grid;
+    grid-template-columns: 630px 630px;
+    /* grid-template-rows: repeat(3 1fr); */
+    grid-auto-rows: minmax(1fr, auto);
+    grid-gap: 10px;
+   
+    
+}
+img{
+    height:322px;
+    width: auto;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    
+}
+.textone {
+    font-size: 20px;
+    text-indent: 50px;
+    line-height: 37px;
+}
+.texttwo{
+    font-size: 20px;
+    text-indent: 50px;
+    line-height: 37px;
+}
+.textthree{
+    font-size: 20px;
+    text-indent: 50px;
+    line-height: 37px;
+}
+.textfour{
+    font-size: 20px;
+    text-indent: 50px;
+    line-height: 37px;
+}
+.textfive{
+    font-size: 20px;
+    text-indent: 50px;
+    line-height: 37px;
+  
+}
+ #image3 img{
+     width:330px;
+     height:330px;
+ }
+ #image5 img{
+    width:320px;
+    height:320px;
+}
+#footer{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border: solid 1px rgb(15, 15, 15);
+    height: 20px;
+    padding:10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin: -5px; /*-ve to fill the entire space left*/ 
+}
+.blogpic{
+    background-image: url("mesmile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 90%;
+
+}
+#text{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+#homelink{
+    float: right;
+    width: 140px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px groove #F0FFFF;
+}
+
+.blogpost1{
+    border: 1px groove #F0FFFF;
+    border-radius: 15px;
+    position: relative;
+    top: 0px;
+    left:250px;
+    text-align: justify;
+    font-size: 20px;
+    width:55%;
+    background-color: #dfe7e7;
+    padding: 20px;
+    text-indent: 50px;
+  
+    
+}
+h4{
+    text-align: center;
+}
+#preview{
+    border: 1px groove #F0FFFF;
+    background-color: #e2e4e4;
+    border-radius: 15px;
+    width: 17%;
+    height:45%;
+    position: absolute;
+    top:35%;
+    left: 80%;
+    font-size: 15px;
+    padding: 10px;
+}
+#preview img{
+    width:130px;
+    height:130px;
+    position:relative;
+    top:0px;
+    left: 30px;
+    border-radius:5px;
+}
+#end{
+    text-align: center;
+    font-weight: bold;
+}
